@@ -1,0 +1,100 @@
+.radioButtonDiv .MuiFormControl-root{
+  width: 100%;
+}
+.radioButtonDiv .MuiFormGroup-row{
+  justify-content: space-around;
+}
+.center{
+  margin:0px;
+  margin-top: 20%;
+  text-align: center;
+  position: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.activeCard{
+  box-shadow: 0px 1px 3px 0px green, 0px 1px 1px 0px green, 0px 2px 1px -1px green;
+}
+.App-link {
+  color: #61dafb;
+}
+.cardMainDiv {
+  text-align: left;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card { 
+  width: 386px;
+  font-size: 25px;  
+  margin: 10px;
+  display: inline-block;  
+}
+.card-container {
+  vertical-align: middle;
+  display: inline-block;
+  width: 100%;
+  white-space: nowrap;
+  overflow:hidden;
+}
+.prev, .next {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+  cursor: pointer;
+  color: #4646EF;
+  transition: 0.6s ease;
+}
+.next {
+  margin-left: 5px;
+}
+.prev {
+  margin-right: 5px;  
+}
+.rotateCalss{
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.prevNextIcon{
+  font-size:64px;
+  font-weight:bold;
+}
+.prev:hover, .next:hover {
+  color: #11117F;
+  height: 100%;  
+}
+.weatherIcon{
+  font-size:7em;
+  color:#cac4c4;
+}
+.weatherCardHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #8c8a8a;
+    font-size: 12px;
+    font-weight: bold;
+}
+.weatherCardHeaderDate{
+  color:#eee;
+}
+.MuiSlider-markLabel{
+  font-size: 0.775rem;
+  top: 17px;
+}
+.selectedCardCss .MuiPaper-elevation1{
+ box-shadow: 5px 5px 5px 0px rgba(39, 119, 239, 0.46), 
+            0px 1px 1px 0px rgba(189, 23, 23, 0.14), 
+            0px 2px 1px -1px rgba(224, 20, 20, 0.12)
+}
